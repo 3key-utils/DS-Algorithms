@@ -6,6 +6,7 @@ Topic wise collection of data structures and algorithms problems and their solut
 
 ## Strings
 1. Print Right Angled Triangle Pattern
+2. Print Hollow Diamond Pattern
 
 
 ## Arrays

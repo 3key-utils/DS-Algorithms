@@ -17,5 +17,6 @@ function processData(input) {
         }
     }
 }
+
 _input = "4\n2\n1\n5\n10\n"
 processData(_input);
