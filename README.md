@@ -10,3 +10,5 @@ Topic wise collection of data structures and algorithms problems and their solut
 
 ## Arrays
 1. Sum of array elements
+2. Rotation of matrix
+3. Diagonal Traversal of Matrix
