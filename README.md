@@ -8,6 +8,5 @@ Topic wise collection of data structures and algorithms problems and their solut
 1. Print Right Angled Triangle Pattern
 2. Print Hollow Diamond Pattern
 
-
 ## Arrays
-
+1. Sum of array elements
