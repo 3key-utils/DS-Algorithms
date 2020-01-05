@@ -2,7 +2,7 @@
 
 Topic wise collection of data structures and algorithms problems and their solutions
 
-*Topics*
+**Topics**
 
 ## Strings
 1. Print Right Angled Triangle Pattern
@@ -13,3 +13,4 @@ Topic wise collection of data structures and algorithms problems and their solut
 2. Rotation of matrix
 3. Diagonal Traversal of Matrix
 4. Sum of two elements of an array equals to given number
+5. Spiral Traversal of Matrix
