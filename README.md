@@ -17,3 +17,4 @@ Topic wise collection of data structures and algorithms problems and their solut
 4. Sum of two elements of an array equals to given number
 5. Spiral Traversal of Matrix
 6. Number of subarrays having sum exactly equal to k
+7. Product a Array Puzzle
