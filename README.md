@@ -26,3 +26,4 @@ Topic wise collection of data structures and algorithms problems and their solut
 ## Logical - Basic
 
 1. [Trailing Zeros in Factorial of a given number](/Logical/TrailingZerosInFactorialOfANumber)
+2. [LCM and HCF](/Logical/LCMAndHCF)
