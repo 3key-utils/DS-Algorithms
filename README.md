@@ -4,6 +4,10 @@ Topic wise collection of data structures and algorithms problems and their solut
 
 ## Topics
 
+1. [Strings](#strings)
+2. [Arrays](#Arrays)
+3. [Logical - Basic](#logical---basic)
+
 ## Strings
 
 1. [Print Right Angled Triangle Pattern](/Strings/PrintRightAngledTrianglePattern)
