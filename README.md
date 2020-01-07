@@ -18,3 +18,7 @@ Topic wise collection of data structures and algorithms problems and their solut
 5. Spiral Traversal of Matrix
 6. Number of subarrays having sum exactly equal to k
 7. Product a Array Puzzle
+
+## Logical - Basic
+
+1. [Trailing Zeros in Factorial of a given number](/Logical/TrailingZerosInFactorialOfANumber)
