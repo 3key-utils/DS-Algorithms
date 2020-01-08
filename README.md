@@ -22,6 +22,7 @@ Topic wise collection of data structures and algorithms problems and their solut
 5. [Spiral Traversal of Matrix](/Arrays/SpiralTraversalOfMatrix)
 6. [Number of subarrays having sum exactly equal to k](/Arrays/NumberOfSubArraysHavingSumExactlyEqualToGivenNumberK)
 7. [Product a Array Puzzle](/Arrays/ProductArrayPuzzle)
+8. [Finding Missing Number](/Arrays/FindingMissingNumber)
 
 ## Logical - Basic
 
