@@ -20,9 +20,10 @@ function countDivisiblesSol1(n) {
 /**
  * Solution 2:
  * When a number is divisor of n then n / i also a divisor
+ * Time Complexity:  O(squareroot of n)
+ * Space Complexity: O(1)
  */
 function countDivisiblesSol2(n) {
-    console.log('n', n);
     let count = 0;
     let i = 1;
     while (i <= n / i) {
@@ -38,6 +39,7 @@ function countDivisiblesSol2(n) {
     return count;
 }
 
-const n = 100;
+const n = 11;
 console.log('Solution 1: ', countDivisiblesSol1(n));
 console.log('Solution 2: ', countDivisiblesSol2(n));
+    
