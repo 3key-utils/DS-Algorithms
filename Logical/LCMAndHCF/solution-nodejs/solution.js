@@ -1,49 +1,39 @@
 // Basic Relation between LCM and HCF of A, B
 // LCM * HCF = A * B
 
-function findLCM(A, B, HCF) {
-    // LCM * HCF = A * B
-    // LCM = (A * B) / HCF
-    return (A * B) / HCF;
-}
-
 function findHCF(A, B) {
-    // Base case
-    if (B == 0) return A;
+    if (B === 0) return A;
     return findHCF(B, A % B);
 }
 
-function swap(A, B) {
-    if (A < B) {
-        A = A + B;
-        B = A - B;
-        A = A - B;
-    }
-    return { A, B };
+function findLCM(A, B, HCF) {
+    // A * B = LCM * HCF
+    return (A * B) / HCF;
 }
 
 function processData(input) {
-    // Enter your code here
-    // Break input with \n let say inputArray
-    const inputArray = input.split("\n");
-    // Number of test cases T = inputArray[0]
-    let T = inputArray[0];
-    // Loop until we reach number of test cases
-    let nIndex = 1;
-    while (T-- && inputArray[nIndex] != "") {
-        // get number of elements N = inputArray[nIndex]
-        let [A, B] = inputArray[nIndex++].trim().split(" ").map(element => parseInt(element));
-        // Swap the numbers if required
-        ({ A, B } = swap(A, B));
+    input = input.split("\n");
+    const T = Number(input.shift());
+    for (let t = 0; t < T; t++) {
+        let [A, B] = input.shift().trim().split(" ").map(Number);
 
-        const HCF = findHCF(A, B);        
-        const LCM = findLCM(A, B, HCF);
-        
-        console.log(`${LCM} ${HCF}`);
+        // Swap numbers if required, To make sure A < B always
+        if (A < B) {
+            A = A + B;
+            B = A - B;
+            A = A - B;
+        }
+
+        // HCF
+        const hcf = findHCF(A, B);
+
+        // LCM
+        const lcm = findLCM(A, B, hcf);
+        console.log(`${lcm} ${hcf}`);
     }
-};
+}
 
-const input = "4\n4 710\n13 1\n6 4\n605904 996510762\n";
+const input = "4\n4 710\n13 1\n6 4\n60590898488 1008880009000\n";
 
 processData(input);
 
