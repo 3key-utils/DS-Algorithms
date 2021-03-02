@@ -2,7 +2,7 @@
 // LCM * HCF = A * B
 
 function findHCF(A, B) {
-    if (B === 0) return A;
+    if (B == 0) return A;
     return findHCF(B, A % B);
 }
 
@@ -13,9 +13,10 @@ function findLCM(A, B, HCF) {
 
 function processData(input) {
     input = input.split("\n");
-    const T = Number(input.shift());
+    const T = BigInt(input[0]);
+    let i = 1;
     for (let t = 0; t < T; t++) {
-        let [A, B] = input.shift().trim().split(" ").map(Number);
+        let [A, B] = input[i++].trim().split(" ").map(BigInt);
 
         // Swap numbers if required, To make sure A < B always
         if (A < B) {
