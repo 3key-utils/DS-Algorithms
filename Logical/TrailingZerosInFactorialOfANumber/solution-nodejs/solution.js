@@ -16,7 +16,7 @@
 */
 
 function findTrailingZeros(N) {
-    // Number of zeros of any number will have factor of 5
+    // Number of zeros of any number factorial will have factor of 5
     let div = 5;
     let count = 0;
     while(Math.floor(N/div) != 0) {
